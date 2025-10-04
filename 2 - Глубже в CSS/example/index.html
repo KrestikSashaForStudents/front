@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <title>Демонстрация CSS возможностей</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Демонстрация CSS возможностей</h1>
+
+
+          <section class="demo-section">
+            <h2>Классы</h2>
+            <div class="card" id="card-1">
+                <h3>Основная карточка</h3>
+                <p>Стилизована с помощью классов .card и .card-primary</p>
+            </div>
+            <div class="card card-success">
+                <h3>Успешная карточка</h3>
+                <p>Стилизована с помощью классов .card и .card-success</p>
+            </div>
+            <div class="card card-warning">
+                <h3>Предупреждающая карточка</h3>
+                <p>Стилизована с помощью классов .card и .card-warning</p>
+            </div>
+        </section>
+
+
+
+        <section class="demo-section">
+            <h2>Селекторы атрибутов</h2>
+            <form>
+                <input type="text" placeholder="Обычное текстовое поле">
+                <input type="email" placeholder="Поле для email">
+                <input type="text" required placeholder="Обязательное поле">
+                <input type="password" placeholder="Пароль">
+            </form>
+        </section>
+
+
+         <section class="demo-section">
+            <h2>Псевдоклассы</h2>
+            <button class="btn">Наведи на меня (hover)</button>
+            
+            <h3>Список с :nth-child</h3>
+            <ul class="item-list">
+                <li class="featured">Первый элемент (featured)</li>
+                <li>Второй элемент</li>
+                <li>Третий элемент</li>
+                <li>Четвертый элемент</li>
+                <li>Пятый элемент</li>
+            </ul>
+        </section>
+
+
+        <section class="demo-section">
+            <h2>Комбинаторы селекторов</h2>
+            <p>Этот параграф стилизован с помощью соседнего селектора (+)</p>
+            
+            <nav class="nav-menu">
+                <ul>
+                    <li class="featured">Главная</li>
+                    <li>О нас</li>
+                    <li>Услуги</li>
+                    <li>Контакты</li>
+                </ul>
+            </nav>
+        </section>
+
+
+        <section class="demo-section">
+            <h2>Flexbox</h2>
+            <div class="flex-container">
+                <div class="flex-item">Flex Item 1 (flex-grow: 2)</div>
+                <div class="flex-item">Flex Item 2 (flex-shrink: 0)</div>
+                <div class="flex-item">Flex Item 3 (flex-basis: 300px)</div>
+                <div class="flex-item">Flex Item 4</div>
+                <div class="flex-item">Flex Item 5</div>
+            </div>
+        </section>
+
+
+    </div>
+</body>
+</html>
